@@ -5,6 +5,8 @@
 body {
     font-family: 'Raleway', sans-serif;
     color: #213053;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -81,4 +83,39 @@ button {
 .about__sun-image {
     width: 100px;
     height: 100px;
+}
+
+.form {
+    background-color: #1D263A;
+    color: #fff;
+    padding: 115px 0;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__container {
+    width: 550px;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form__group label {
+    text-align: left
+}
+
+.form h1 {
+    font-size: 48px;
+
+}
+
+.form p {
+    font-size: 18px;
+    opacity: 0.65;
 }
